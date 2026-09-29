@@ -1,0 +1,109 @@
+:root {
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --accent: #7aa2ff;
+  --accent-soft: rgba(122, 162, 255, 0.14);
+  --accent-2: #9d8bff;
+  --route: #ffc857;
+  --here: #4fd6b8;
+  --danger: #ff7a7a;
+
+  --t-building: #93a3c4;
+  --t-lab: #b68cff;
+  --t-classroom: #6ea8fe;
+  --t-hall: #ffb454;
+  --t-library: #4fd6b8;
+  --t-canteen: #ff8fa8;
+  --t-entrance: #7be495;
+  --t-office: #a4aec6;
+  --t-department: #8b93ff;
+  --t-facility: #8f97ab;
+
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 18px;
+  --r-xl: 24px;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 12px 40px rgba(0, 0, 0, 0.45);
+  --shadow-3: 0 24px 70px rgba(0, 0, 0, 0.5);
+
+  --header-h: 64px;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+:root,
+:root[data-theme='dark'] {
+  --bg: #07090e;
+  --bg-grad: radial-gradient(1200px 700px at 18% -10%, rgba(122, 162, 255, 0.1), transparent 60%),
+    radial-gradient(900px 600px at 95% 0%, rgba(157, 139, 255, 0.08), transparent 55%);
+  --panel: rgba(16, 20, 29, 0.78);
+  --panel-solid: #10141d;
+  --panel-2: #161b26;
+  --panel-3: #1d2431;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --ink: #e9edf6;
+  --ink-2: #a7b0c4;
+  --ink-3: #6f7890;
+
+  --map-bg: #0a0e15;
+  --map-grid: rgba(255, 255, 255, 0.035);
+  --map-boundary: rgba(255, 255, 255, 0.1);
+  --map-road: #141a25;
+  --map-road-edge: rgba(255, 255, 255, 0.06);
+  --map-road-dash: rgba(255, 255, 255, 0.14);
+  --map-path: #1b2230;
+  --map-lawn: #10231c;
+  --map-lawn-line: #1c3a2e;
+  --map-building: #1a2130;
+  --map-building-2: #212a3c;
+  --map-building-edge: rgba(255, 255, 255, 0.13);
+  --map-room: rgba(255, 255, 255, 0.045);
+  --map-room-edge: rgba(255, 255, 255, 0.12);
+  --map-corridor: rgba(255, 255, 255, 0.06);
+  --map-label: #9aa5bd;
+  --map-label-strong: #e5eaf5;
+}
+
+:root[data-theme='light'] {
+  --bg: #f3f5fa;
+  --bg-grad: radial-gradient(1200px 700px at 18% -10%, rgba(53, 97, 232, 0.09), transparent 60%),
+    radial-gradient(900px 600px at 95% 0%, rgba(124, 93, 255, 0.07), transparent 55%);
+  --panel: rgba(255, 255, 255, 0.84);
+  --panel-solid: #ffffff;
+  --panel-2: #f1f4fa;
+  --panel-3: #e8ecf5;
+  --line: rgba(10, 16, 30, 0.1);
+  --line-strong: rgba(10, 16, 30, 0.18);
+  --ink: #0d1220;
+  --ink-2: #4b5468;
+  --ink-3: #79839a;
+
+  --accent: #2f5be0;
+  --accent-soft: rgba(47, 91, 224, 0.12);
+  --route: #d17a10;
+  --here: #0e9e80;
+
+  --map-bg: #eef1f7;
+  --map-grid: rgba(10, 16, 30, 0.045);
+  --map-boundary: rgba(10, 16, 30, 0.16);
+  --map-road: #ffffff;
+  --map-road-edge: rgba(10, 16, 30, 0.09);
+  --map-road-dash: rgba(10, 16, 30, 0.18);
+  --map-path: #e4e9f2;
+  --map-lawn: #dcefe1;
+  --map-lawn-line: #c2e0cb;
+  --map-building: #dfe5f0;
+  --map-building-2: #d5dcea;
+  --map-building-edge: rgba(10, 16, 30, 0.16);
+  --map-room: rgba(255, 255, 255, 0.75);
+  --map-room-edge: rgba(10, 16, 30, 0.14);
+  --map-corridor: rgba(10, 16, 30, 0.06);
+  --map-label: #5c6579;
+  --map-label-strong: #131a29;
+
+  --shadow-2: 0 12px 40px rgba(20, 30, 60, 0.14);
+  --shadow-3: 0 24px 70px rgba(20, 30, 60, 0.18);
+}
