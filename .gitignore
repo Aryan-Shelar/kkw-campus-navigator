@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# production build output (published by GitHub Actions)
+dist/
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS
+.DS_Store
+*.local
+.vscode/
+.idea/
