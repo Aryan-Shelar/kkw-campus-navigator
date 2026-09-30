@@ -1,5 +1,4 @@
-import { ADJACENCY, NODE_BY_ID } from '../data/graph'
-import { FLOOR_LABEL } from '../data/campus'
+import { ADJACENCY, NODE_BY_ID, FLOOR_LABEL } from '../data'
 import type { GraphNode, NavRoute, NavStep } from '../types'
 
 const FALL_COST = 40

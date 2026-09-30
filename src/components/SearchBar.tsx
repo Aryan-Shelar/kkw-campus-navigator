@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Search, CornerDownLeft, MapPin } from 'lucide-react'
 import { searchLocations, suggestLabel } from '../lib/search'
-import { TYPE_LABEL } from '../data/campus'
+import { TYPE_LABEL } from '../data'
 import { TYPE_COLOR_VAR } from '../map/icons'
 import type { Location } from '../types'
 

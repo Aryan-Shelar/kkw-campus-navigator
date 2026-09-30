@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useCampus } from '../store'
-import { LOCATIONS, LOCATION_BY_ID } from '../data/campus'
-import { NODE_BY_ID } from '../data/graph'
+import { LOCATIONS, LOCATION_BY_ID, NODE_BY_ID } from '../data'
 import { MapBase, Compass } from './MapBase'
 import { BuildingsLayer, RoomsLayer, RouteLayer, YouAreHere } from './MapLayers'
 import { LocationMarker } from './LocationMarker'

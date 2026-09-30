@@ -1,6 +1,6 @@
 import { X, LogOut, Crosshair, Footprints, MoveUpRight, Flag, MapPin } from 'lucide-react'
 import { useCampus } from '../store'
-import { BUILDING_BY_ID, FLOOR_LABEL, LOCATIONS, LOCATION_BY_ID } from '../data/campus'
+import { BUILDING_BY_ID, FLOOR_LABEL, LOCATIONS, LOCATION_BY_ID } from '../data'
 import type { NavStep } from '../types'
 
 const ORIGIN_CHOICES = ['main-gate', 'block-a', 'block-b', 'library', 'canteen', 'admin', 'sac', 'aids-dept', 'intro-hall', 'parking']

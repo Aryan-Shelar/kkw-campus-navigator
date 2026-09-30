@@ -1,5 +1,5 @@
 import { useCampus } from '../store'
-import { FLOOR_ORDER, FLOOR_LABEL } from '../data/campus'
+import { FLOOR_ORDER, FLOOR_LABEL } from '../data'
 import type { FloorId } from '../types'
 
 const SHORT: Record<FloorId, string> = { B: 'B', G: 'G', '1': '1', '2': '2', '3': '3' }

@@ -1,5 +1,5 @@
 import { useCampus } from '../store'
-import { LOCATION_BY_ID } from '../data/campus'
+import { LOCATION_BY_ID } from '../data'
 import { CampusMap } from '../map/CampusMap'
 import { LocationPanel } from '../components/LocationPanel'
 import { NavigationPanel } from '../components/NavigationPanel'

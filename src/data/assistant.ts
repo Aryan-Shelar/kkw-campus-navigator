@@ -1,6 +1,5 @@
 import { searchLocations } from '../lib/search'
-import { BUILDING_BY_ID, FLOOR_LABEL, TYPE_LABEL } from './campus'
-import { LOCATION_BY_ID } from './campus'
+import { BUILDING_BY_ID, FLOOR_LABEL, TYPE_LABEL, LOCATION_BY_ID } from '.'
 
 export interface AssistantReply {
   text: string

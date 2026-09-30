@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { MapPin, ArrowUpRight } from 'lucide-react'
-import { LOCATIONS, BUILDING_BY_ID, FLOOR_LABEL, TYPE_LABEL } from '../data/campus'
+import { LOCATIONS, BUILDING_BY_ID, FLOOR_LABEL, TYPE_LABEL } from '../data'
 import { TYPE_COLOR_VAR } from '../map/icons'
 import type { Location, LocationType } from '../types'
 

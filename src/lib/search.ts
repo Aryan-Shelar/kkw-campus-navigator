@@ -1,4 +1,4 @@
-import { LOCATIONS, TYPE_LABEL, BUILDING_BY_ID, FLOOR_LABEL } from '../data/campus'
+import { LOCATIONS, TYPE_LABEL, BUILDING_BY_ID, FLOOR_LABEL } from '../data'
 import type { Location } from '../types'
 
 export interface SearchResult {

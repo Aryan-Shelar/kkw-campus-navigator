@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { FloorId, Location, NavRoute, ViewId } from './types'
-import { LOCATION_BY_ID } from './data/campus'
+import { LOCATION_BY_ID } from './data'
 import { buildRoute } from './lib/path'
 import { demoAssistant, type AssistantReply } from './data/assistant'
 

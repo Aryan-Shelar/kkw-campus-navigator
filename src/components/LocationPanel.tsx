@@ -1,6 +1,6 @@
 import { X, Navigation, Layers3, MapPin } from 'lucide-react'
 import { useCampus } from '../store'
-import { BUILDING_BY_ID, FLOOR_LABEL, TYPE_LABEL } from '../data/campus'
+import { BUILDING_BY_ID, FLOOR_LABEL, TYPE_LABEL } from '../data'
 import { TYPE_COLOR_VAR } from '../map/icons'
 import type { Location } from '../types'
 

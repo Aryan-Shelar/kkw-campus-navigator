@@ -1,4 +1,4 @@
-import { BUILDINGS, LOCATIONS, LOCATION_BY_ID } from '../data/campus'
+import { BUILDINGS, LOCATIONS, LOCATION_BY_ID } from '../data'
 import type { FloorId, NavRoute } from '../types'
 
 /* ------------------------------- buildings ------------------------------ */
